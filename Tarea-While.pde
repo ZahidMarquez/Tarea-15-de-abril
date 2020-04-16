@@ -19,5 +19,5 @@ background(0);
   }
    
   ellipse(width/2, height/2, circuloRadio, circuloRadio);
-  circuloRadio -= 50;
+  circuloRadio -= 20;
  }
