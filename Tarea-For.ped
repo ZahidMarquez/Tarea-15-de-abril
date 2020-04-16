@@ -3,7 +3,7 @@ stroke(0);//Borde del circulo color negro
 
 
 int circuloFondo = 0;//Variable del fondo
-background(0);
+background(0);//Fondo de la pantalla color negro
 for(int circuloRadio=500; circuloRadio > 0;circuloRadio -=20){//Iniciación del ciclo "for" para dibujar los circulos hasta 25 con distancia de 20 pixels
   //Iniciación del coloreo de los circulos, en base a un contador de variiable llamada "circuloFondo"
   if (circuloFondo==0){//Damos el valor de 0 al color rojo y si el contador es 0 se sumara 1, si es diferente de 0 no se pinta de rojo
